@@ -1,0 +1,32 @@
+{
+  "name": "drone-server",
+  "version": "0.0.1",
+  "description": "Server side for client to connect, recieve and save data on a database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClutchedIt/drone-server.git"
+  },
+  "keywords": [
+    "npm",
+    "nodemon"
+  ],
+  "author": "Kristian Mellina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClutchedIt/drone-server/issues"
+  },
+  "homepage": "https://github.com/ClutchedIt/drone-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
